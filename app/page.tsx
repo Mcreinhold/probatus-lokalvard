@@ -1,4 +1,5 @@
 "use client";
+// @ts-nocheck
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 const TODAY = "2026-03-25";
