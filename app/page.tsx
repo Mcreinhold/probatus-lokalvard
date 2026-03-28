@@ -187,7 +187,7 @@ function nowStamp() {
     .replace(",", "");
 }
 
-function createId(prefix) {
+function createId(prefix: string) {
   return `${prefix}${Date.now()}${Math.floor(Math.random() * 1000)}`;
 }
 
