@@ -191,7 +191,7 @@ function createId(prefix: string) {
   return `${prefix}${Date.now()}${Math.floor(Math.random() * 1000)}`;
 }
 
-function canManage(user) {
+function canManage(user: any) {
   return user?.role === ROLE.ADMIN;
 }
 
